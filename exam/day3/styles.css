@@ -1,0 +1,43 @@
+
+ body,
+    html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    body {
+        height: 1500px;
+        background-color: rgb(126, 214, 223);
+    }
+
+    #boxOne {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(255, 121, 121);
+        position: fixed;
+        top:0px
+    }
+
+    #boxTwo {
+        height: 100%;
+        width: 400px;
+        background-color: rgb(255,204, 0);
+        position:fixed;
+        right:0px;
+        top:100px;
+        border:grey solid 10px;
+    }
+    
+    #boxThree{
+        height:50px;
+        width:100px;
+        background-color: rgb(186, 220, 88);
+        position:fixed;
+        right:360px;
+        top:80px;
+    }
+    h6{
+        color:white;
+        font-size: 50px;
+    }
