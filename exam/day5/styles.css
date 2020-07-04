@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+#buttom{
+    background-color: grey;
+    border-radius:20px;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color:white;
+    font-size: 20px;
+    transition:box-shadow 1s ease-in-out;
+    
+    
+}
+#buttom:active{ 
+   background-color: rgb(153, 153, 153);
+   box-shadow: 2px 5px 3px #888888
+   
+
+}
+#NicoleImage{
+  margin:20px;
+  height: 100px; 
+  width:100px;
+  transition:transtorm 1s ease-in-out;
+
+}
+#buttom:active+#NicoleImage{
+  border: black solid 2px;
+  transform: rotate(0.4turn) scale(0.7);
+}
