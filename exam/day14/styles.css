@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: sans-serif;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.first, .second{
+    padding: 0px;
+    margin: 0px;
+}
+.camera{
+    background-color: #019F91;
+    height: 200px;
+    width: 270px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.camara_images{
+    background-image:url(images/camera.jpg);
+    border-radius: 10px;
+    background-size:cover;
+    height:100px;
+    width:100px;
+}
+.overflow_a{
+    position: relative;
+    background-color: #283A48;
+    height: 200px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    left:20px;
+    top:-175px;
+    opacity: 0;
+}
+.oveflow_a_colum{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.oveflow_a_tilte{
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.overflow_a_name{
+    color:#EA4463;
+    font-size: 12px;
+    margin-top: -5px;
+}
+.overflow_a_box{
+    color:white;
+    background-color: #EA4463;
+    padding:5px 10px;
+    margin-top: 20px;
+}
+
+.overflow_a:hover{
+    animation: a_aim 0.5s ease-out forwards;
+    
+}
+@keyframes a_aim{
+    from {
+      opacity: 0;
+      transform: translateX(-15px) translateY(-15px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+.second{
+    background-color: pink;
+    height: 200px;
+    width: 270px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+.ball{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.ball_images{
+    background-image:url(images/camera.jpg);
+    border-radius: 10px;
+    background-size:cover;
+    height:100px;
+    width:100px;
+    margin-top: 60px;
+}
+.overflow_b{
+    position:relative;
+    background-color: #283A48;
+    height: 70px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    bottom:-55px;
+    
+}
+.oveflow_a_colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ball:hover .overflow_b {
+    animation: b_aim ease-out 0.5s forwards;
+    
+    
+}
+.ball:hover .ball_images{
+    animation: c_aim ease-out 0.5s forwards;
+}
+@keyframes b_aim{
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform:translate(0px,-70px); 
+    }
+  }
+
+  @keyframes c_aim{
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform:translate(0px,-30px); 
+    }
+  }
+
+.oveflow_b_colum{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.oveflow_b_tilte{
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+.overflow_b_name{
+    color:#EA4463;
+    font-size: 12px;
+    margin-top: -5px;
+    
+}
+.overflow_b_box{
+    color:white;
+    background-color: #EA4463;
+    padding:5px 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}

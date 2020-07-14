@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@import"reset.css";
+
+body{
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #020202;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.kakao{
+    background-color: white;
+    height:720px;
+    width:47%;
+    border-radius: 40px;   
+}
+
+.apple{
+    background-color: white;
+    height:720px;
+    width:47%;
+    border-radius: 40px; 
+}
+.kakao .profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.profile__box{
+    height:340px;
+    width:100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;    
+}
+.profile__name{
+    height: 220px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile__name .name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.profile__name .job{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.message{
+    background-color:white;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.message .message_follow{
+    background-color: #6B75FF;
+    color: white;
+    font-size: 25px;
+    width:220px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:30px;
+    z-index: 2;
+}
+.message .message_message{
+    background-color:#EAECFF;
+    color:  #6B75FF;
+    font-size: 25px;
+    width:220px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:30px;
+    z-index: 2;
+}
+.profile__centp{
+    border: white solid 8px;
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    left: 160px;
+    bottom:164px;
+}
+
+.store__pic{
+    background-color:white;
+    height:500px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.store__exp{
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: start; 
+    flex-direction: column;
+    height: 110px;
+    padding-right:100px; 
+}
+.store__exp__title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.store__exp__colum{
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-left: 40px;
+}
+.store__price{
+    background-color:white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 40px;
+}
+.store__price-price{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.store__price-star_yel{
+  color :#FDBF4F;
+  font-size: 25px;
+    font-weight: 400;
+}
+.store__price-star_blk{
+    color:black;
+    opacity: 0.6;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right:40px;
+}
